@@ -1,0 +1,105 @@
+/*clases de utilidad*/
+h1{
+    color: peru;
+}
+
+h1{
+    color: grey;
+}
+
+/**{
+    color: tomato;
+}*/
+
+#main-heading{
+    font-style: normal;
+}
+
+.text-oblique{
+    font-style: oblique;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+li{ /*subrrallado*/
+    text-decoration: underline;
+}
+
+/*selector por anidacion*/
+/*En lista-1 viven los li*/
+/*concatenacion #selector, selector{atributo:valor;*/
+
+/*#lista-1 li, #lista-1 p{
+background-color: #acacac;
+}*/
+
+/*#lista-1 li{
+    background-color: #acacac;
+}
+
+#lista-1 li ul li{
+    background-color: springgreen;
+}*/
+
+.bg-red{
+    background-color: red;
+}
+
+/*.lista-tipo-1 > li{
+text-transform: uppercase;
+}*/
+
+.lista-tipo-1 li{
+    background-color: gray;
+}
+
+/*Selector de desendiente directo*/
+.lista-tipo-1 > li{
+    background-color: peru;
+}
+
+
+/*.lista-tipo-1 li ul li{
+    background-color: pink;
+}*/
+
+
+
+
+.lista-tipo-2 li.active{
+background-color: skyblue;
+padding: 1rem;
+text-decoration: underline;
+}
+
+/*selector de sucesores*/
+.lista-tipo-2 li.active ~ li{
+    background-color: lightcoral;
+}
+/*selector de sucesor inmediato o adyasente*/
+.lista-tipo-2 li.active + li{
+    background-color: purple;
+}
+
+.lista-3 li + li{
+    background-color: lime;
+}
+
+ul{
+    background-color: wheat;
+}
+
+
+.lista-4 li:nth-of-type(odd){ /*nones*/
+    font-size: 45px;
+}
+
+.lista-4 li:nth-of-type(even){/*pares*/
+    font-size: 15px;
+}
+
+.lista-4 li:nth-of-type(7){
+    font-size: 25px;
+}
